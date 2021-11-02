@@ -1,0 +1,22 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1635855079
+<< metal3 >>
+rect -19594 -20254 7036 6942
+<< metal4 >>
+rect -17134 7672 4406 8558
+rect -16784 -19714 -14810 7672
+rect -10118 -19708 -8144 7672
+rect -3970 -19580 -1996 7672
+rect 2240 -19834 4214 7672
+use sky130_fd_pr__cap_mim_m3_1_LQCLLG  sky130_fd_pr__cap_mim_m3_1_LQCLLG_0
+timestamp 1635855079
+transform 1 0 -6329 0 1 -6350
+box -12628 -12600 12628 12600
+<< labels >>
+rlabel metal4 s -9408 8046 -9408 8046 4 VIN
+port 1 nsew
+rlabel metal3 s 5562 -19878 5562 -19878 4 VOUT
+port 2 nsew
+<< end >>

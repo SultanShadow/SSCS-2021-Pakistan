@@ -1,0 +1,23 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1635855079
+<< nwell >>
+rect 9406 218 9680 16664
+<< locali >>
+rect 9306 16464 9738 16630
+rect 9334 14990 9710 15184
+rect 9358 6390 9734 6584
+rect 9374 270 9750 464
+<< metal1 >>
+rect 9306 16484 9996 16632
+rect 9124 4 10060 394
+<< metal2 >>
+rect 9030 16386 9810 16472
+rect 9284 422 9772 516
+use pmos20  pmos20_0
+array 1 0 9454 0 0 16663
+timestamp 1635855079
+transform 1 0 238 0 1 278
+box -238 -278 9216 16385
+<< end >>

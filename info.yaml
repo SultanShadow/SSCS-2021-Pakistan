@@ -1,0 +1,19 @@
+---
+project:
+  description: "SSCS-21 Contest Project Submission---Final Merged Design."
+  foundry: "SkyWater"
+  git_url: "https://github.com/SultanShadow/SSCS-2021-Pakistan.git"
+  organization: "NUCES-FAST"
+  organization_url: "http://isb.nu.edu.pk/rfcs2/"
+  owner: "Shahid Jamil"
+  process: "SKY130"
+  project_name: "SSCS-21 Pakistan"
+  project_id: "00000000"
+  tags:
+    - "SSCS-21"
+    - "Test Harness"
+  category: "Test Harness"
+  top_level_netlist: "caravel/spi/lvs/caravan.spice"
+  user_level_netlist: "netgen/user_analog_project_wrapper.spice"
+  version: "1.00"
+  cover_image: "docs/source/_static/caravel_harness.png"
