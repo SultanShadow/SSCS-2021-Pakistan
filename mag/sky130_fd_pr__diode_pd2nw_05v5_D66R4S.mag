@@ -1,0 +1,77 @@
+magic
+tech sky130A
+timestamp 1635941711
+<< nwell >>
+rect -569 -569 569 569
+<< pwell >>
+rect -638 569 638 638
+rect -638 -569 -569 569
+rect 569 -569 638 569
+rect -638 -638 638 -569
+<< psubdiff >>
+rect -620 603 -572 620
+rect 572 603 620 620
+rect -620 572 -603 603
+rect 603 572 620 603
+rect -620 -603 -603 -572
+rect 603 -603 620 -572
+rect -620 -620 -572 -603
+rect 572 -620 620 -603
+<< nsubdiff >>
+rect -551 534 -503 551
+rect 503 534 551 551
+rect -551 503 -534 534
+rect 534 503 551 534
+rect -551 -534 -534 -503
+rect 534 -534 551 -503
+rect -551 -551 -503 -534
+rect 503 -551 551 -534
+<< psubdiffcont >>
+rect -572 603 572 620
+rect -620 -572 -603 572
+rect 603 -572 620 572
+rect -572 -620 572 -603
+<< nsubdiffcont >>
+rect -503 534 503 551
+rect -551 -503 -534 503
+rect 534 -503 551 503
+rect -503 -551 503 -534
+<< pdiode >>
+rect -500 494 500 500
+rect -500 -494 -494 494
+rect 494 -494 500 494
+rect -500 -500 500 -494
+<< pdiodec >>
+rect -494 -494 494 494
+<< locali >>
+rect -620 603 -572 620
+rect 572 603 620 620
+rect -620 572 -603 603
+rect 603 572 620 603
+rect -551 534 -503 551
+rect 503 534 551 551
+rect -551 503 -534 534
+rect 534 503 551 534
+rect -502 -494 -494 494
+rect 494 -494 502 494
+rect -551 -534 -534 -503
+rect 534 -534 551 -503
+rect -551 -551 -503 -534
+rect 503 -551 551 -534
+rect -620 -603 -603 -572
+rect 603 -603 620 -572
+rect -620 -620 -572 -603
+rect 572 -620 620 -603
+<< viali >>
+rect -494 -494 494 494
+<< metal1 >>
+rect -500 494 500 497
+rect -500 -494 -494 494
+rect 494 -494 500 494
+rect -500 -497 500 -494
+<< properties >>
+string gencell sky130_fd_pr__diode_pd2nw_05v5
+string FIXED_BBOX -542 -542 542 542
+string parameters w 10 l 10 area 100.0 peri 40.0 nx 1 ny 1 dummy 0 lmin 0.45 wmin 0.45 elc 1 erc 1 etc 1 ebc 1 glc 1 grc 1 gtc 1 gbc 1 doverlap 0 compatible {sky130_fd_pr__diode_pd2nw_05v5 sky130_fd_pr__diode_pd2nw_05v5_lvt  sky130_fd_pr__diode_pd2nw_05v5_hvt sky130_fd_pr__diode_pd2nw_11v0} full_metal 1 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+string library sky130
+<< end >>
