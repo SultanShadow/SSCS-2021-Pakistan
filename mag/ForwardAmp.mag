@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1635855079
+timestamp 1636132012
 << locali >>
 rect 1371 3292 2927 3621
 << metal1 >>
@@ -14,11 +14,11 @@ rect 2231 2940 2246 3010
 rect 0 583 14 705
 rect 2104 418 2127 555
 use sky130_fd_pr__res_high_po_0p69_D8BZCP  sky130_fd_pr__res_high_po_0p69_D8BZCP_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 2149 0 1 4218
 box -804 -657 804 657
 use cascode_PMOS  cascode_PMOS_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 174 0 1 0
 box -174 66 5531 3553
 << labels >>

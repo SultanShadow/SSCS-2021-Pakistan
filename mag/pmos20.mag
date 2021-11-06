@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1635855079
+timestamp 1636132012
 << locali >>
 rect -18 16312 9156 16348
 rect -18 -18 9150 18
@@ -300,7 +300,7 @@ rect -154 166 9114 177
 rect -154 162 342 166
 use sky130_fd_pr__pfet_01v8_lvt_4QDPGG  sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0
 array 19 0 462 0 0 16438
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 178 0 1 8166
 box -231 -8219 231 8219
 << labels >>

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1635971200
+timestamp 1636132012
 << error_s >>
 rect 3964 12507 4500 12828
 << locali >>
@@ -559,69 +559,69 @@ rect 21929 17032 28108 19174
 rect 21929 16378 28099 17032
 rect 20930 15826 28099 16378
 rect -7296 14641 -327 15273
-use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_1
-timestamp 1635855079
-transform 1 0 -1294 0 1 17068
-box -3351 -3101 3373 3101
 use sky130_fd_sc_hd__inv_4  sky130_fd_sc_hd__inv_4_0
-timestamp 1635971200
+timestamp 1636132012
 transform 1 0 4002 0 1 12246
 box -38 -48 498 592
+use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_1
+timestamp 1636132012
+transform 1 0 -1294 0 1 17068
+box -3351 -3101 3373 3101
 use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 26173 0 1 18811
 box -3351 -3101 3373 3101
 use sky130_fd_pr__cap_mim_m3_2_S6VVQT  sky130_fd_pr__cap_mim_m3_2_S6VVQT_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 26173 0 1 24752
 box -3351 -2601 3373 2601
 use sky130_fd_pr__cap_mim_m3_2_WXTTNJ  sky130_fd_pr__cap_mim_m3_2_WXTTNJ_0
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 20351 -1 0 24648
 box -2351 -2101 2373 2101
 use sky130_fd_pr__cap_mim_m3_2_D7CHNQ  sky130_fd_pr__cap_mim_m3_2_D7CHNQ_3
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 5470 -1 0 26628
 box -1851 -1601 1873 1601
 use sky130_fd_pr__cap_mim_m3_2_D7CHNQ  sky130_fd_pr__cap_mim_m3_2_D7CHNQ_2
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 9319 -1 0 26607
 box -1851 -1601 1873 1601
 use sky130_fd_pr__cap_mim_m3_2_D7CHNQ  sky130_fd_pr__cap_mim_m3_2_D7CHNQ_1
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 -3143 -1 0 26622
 box -1851 -1601 1873 1601
 use sky130_fd_pr__cap_mim_m3_2_D7CHNQ  sky130_fd_pr__cap_mim_m3_2_D7CHNQ_0
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 1008 -1 0 26603
 box -1851 -1601 1873 1601
 use Top  Top_0
-timestamp 1635971200
+timestamp 1636132012
 transform 1 0 0 0 1 1008
 box 0 -1008 27865 22304
 << labels >>
-flabel metal4 s -4562 4270 -4562 4270 0 FreeSans 12500 0 0 0 VCASC1
+flabel metal4 s -4562 4270 -4562 4270 0 FreeSans 24413 0 0 0 VCASC1
 port 1 nsew
-flabel metal3 s 9434 -3609 9434 -3609 0 FreeSans 12500 0 0 0 RFIN
+flabel metal3 s 9434 -3609 9434 -3609 0 FreeSans 24413 0 0 0 RFIN
 port 2 nsew
-flabel metal4 s 33320 12505 33320 12505 0 FreeSans 12500 0 0 0 VSWP
+flabel metal4 s 33320 12505 33320 12505 0 FreeSans 24413 0 0 0 VSWP
 port 3 nsew
-flabel metal4 s -2814 22609 -2814 22609 0 FreeSans 12500 0 0 0 PAOUT
+flabel metal4 s -2814 22609 -2814 22609 0 FreeSans 24413 0 0 0 PAOUT
 port 4 nsew
-flabel metal3 s 17133 28906 17133 28906 0 FreeSans 12500 90 0 0 LNAOUT
+flabel metal3 s 17133 28906 17133 28906 0 FreeSans 24413 90 0 0 LNAOUT
 port 5 nsew
-flabel metal3 s 15986 28874 15986 28874 0 FreeSans 5000 90 0 0 VBIAS4
+flabel metal3 s 15986 28874 15986 28874 0 FreeSans 9765 90 0 0 VBIAS4
 port 6 nsew
-flabel metal3 s 12963 28355 12963 28355 0 FreeSans 12500 90 0 0 VDD
+flabel metal3 s 12963 28355 12963 28355 0 FreeSans 24413 90 0 0 VDD
 port 7 nsew
-flabel metal3 s 24438 -3432 24438 -3432 0 FreeSans 12500 0 0 0 VBIAS3
+flabel metal3 s 24438 -3432 24438 -3432 0 FreeSans 24413 0 0 0 VBIAS3
 port 8 nsew
-flabel metal3 s 12730 -3549 12730 -3549 0 FreeSans 7500 0 0 0 VBIAS2
+flabel metal3 s 12730 -3549 12730 -3549 0 FreeSans 14647 0 0 0 VBIAS2
 port 9 nsew
-flabel metal3 s 15458 -3736 15458 -3736 0 FreeSans 7500 0 0 0 VBIAS1
+flabel metal3 s 15458 -3736 15458 -3736 0 FreeSans 14647 0 0 0 VBIAS1
 port 10 nsew
-flabel metal4 s 33022 8740 33022 8740 0 FreeSans 12500 0 0 0 VCASC2
+flabel metal4 s 33022 8740 33022 8740 0 FreeSans 24413 0 0 0 VCASC2
 port 11 nsew
-flabel metal1 s -3366 -795 -3366 -795 0 FreeSans 12500 0 0 0 VSS
+flabel metal1 s -3366 -795 -3366 -795 0 FreeSans 24413 0 0 0 VSS
 port 12 nsew
 << end >>

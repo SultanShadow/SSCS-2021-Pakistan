@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1635855079
+timestamp 1636132012
 << locali >>
 rect 18272 22242 18538 22348
 rect 18272 22136 18340 22242
@@ -84,19 +84,19 @@ rect 38213 22239 42378 22383
 rect 37780 22156 42378 22239
 rect 39290 21656 42378 22156
 use pmos40  pmos40_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 18406 0 -1 21364
 box 0 0 18908 16664
 use pmos40  pmos40_1
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 18280 0 -1 38724
 box 0 0 18908 16664
 use cap225_layout  cap225_layout_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 129394 0 1 89866
 box -90032 -89592 7438 8920
 use recitifer_layout  recitifer_layout_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 930 0 1 29318
 box -910 -29318 17472 9474
 << labels >>

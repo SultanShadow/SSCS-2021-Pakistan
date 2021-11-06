@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1635855079
+timestamp 1636132012
 << nwell >>
 rect 3788 2096 3822 2876
 rect 14120 2390 14154 2930
@@ -731,35 +731,35 @@ rect 3878 1243 3886 1299
 rect 3942 1243 3948 1299
 rect 3878 1208 3948 1243
 use sky130_fd_pr__nfet_01v8_lvt_8K7EBA  sky130_fd_pr__nfet_01v8_lvt_8K7EBA_0
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 6946 -1 0 925
 box -221 -2200 221 2200
 use sky130_fd_pr__nfet_01v8_lvt_8K7EBA  sky130_fd_pr__nfet_01v8_lvt_8K7EBA_1
-timestamp 1635855079
+timestamp 1636132012
 transform 0 -1 6946 -1 0 1369
 box -221 -2200 221 2200
 use sky130_fd_pr__nfet_01v8_lvt_8K7EBA  sky130_fd_pr__nfet_01v8_lvt_8K7EBA_2
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 6946 -1 0 1823
 box -221 -2200 221 2200
 use sky130_fd_pr__nfet_01v8_lvt_8K7EBA  sky130_fd_pr__nfet_01v8_lvt_8K7EBA_3
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 11980 -1 0 1367
 box -221 -2200 221 2200
 use sky130_fd_pr__nfet_01v8_lvt_8K7EBA  sky130_fd_pr__nfet_01v8_lvt_8K7EBA_4
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 11980 -1 0 1825
 box -221 -2200 221 2200
 use sky130_fd_pr__pfet_01v8_lvt_4QC8GG  sky130_fd_pr__pfet_01v8_lvt_4QC8GG_0
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 8971 -1 0 2287
 box -231 -5219 231 5219
 use sky130_fd_pr__pfet_01v8_lvt_4QC8GG  sky130_fd_pr__pfet_01v8_lvt_4QC8GG_1
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 8971 -1 0 2745
 box -231 -5219 231 5219
 use sky130_fd_pr__pfet_01v8_lvt_4QC8GG  sky130_fd_pr__pfet_01v8_lvt_4QC8GG_2
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 8973 -1 0 459
 box -231 -5219 231 5219
 << labels >>

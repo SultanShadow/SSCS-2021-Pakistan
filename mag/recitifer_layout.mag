@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1635855079
+timestamp 1636132012
 << locali >>
 rect 430 9296 504 9334
 rect 430 9262 449 9296
@@ -145,19 +145,19 @@ rect 32 -20474 73 -20294
 rect 189 -20474 232 -20294
 rect 32 -20498 232 -20474
 use pmos20  pmos20_0
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 266 -1 0 9220
 box -238 -278 9216 16385
 use pmos20  pmos20_1
-timestamp 1635855079
+timestamp 1636132012
 transform 0 1 334 -1 0 -342
 box -238 -278 9216 16385
 use nmos20  nmos20_0
-timestamp 1635855079
+timestamp 1636132012
 transform 0 -1 8575 -1 0 -20124
 box -308 -8222 9194 8286
 use nmos20  nmos20_1
-timestamp 1635855079
+timestamp 1636132012
 transform 0 -1 8511 -1 0 -10210
 box -308 -8222 9194 8286
 << labels >>

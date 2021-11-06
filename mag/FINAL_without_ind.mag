@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1635855079
+timestamp 1636132012
 << metal1 >>
 rect -480 38310 948 38438
 rect -480 37938 -281 38310
@@ -66,11 +66,11 @@ rect 17714 189 17853 413
 rect 18077 189 18210 413
 rect 17714 42 18210 189
 use FINAL  FINAL_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 2 0 1 2
 box -2 -2 136810 98784
 use cap_30_layout  cap_30_layout_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 12438 0 1 62996
 box -19594 -20254 7036 8558
 << labels >>

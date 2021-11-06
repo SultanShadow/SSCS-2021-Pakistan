@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1635855079
+timestamp 1636132012
 << locali >>
 rect -44 8214 9194 8270
 rect -44 8212 5634 8214
@@ -429,7 +429,7 @@ rect 7132 -7924 9136 -7922
 rect 4814 -7926 5438 -7924
 use sky130_fd_pr__nfet_01v8_lvt_BPY4AF  sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0
 array 19 0 462 0 0 16420
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 159 0 1 85
 box -221 -8200 221 8200
 << labels >>

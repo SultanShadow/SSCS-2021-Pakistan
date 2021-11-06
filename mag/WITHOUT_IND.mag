@@ -1,8 +1,8 @@
 magic
 tech sky130A
-timestamp 1635855079
+timestamp 1636132012
 use FINAL_without_ind  FINAL_without_ind_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 3570 0 1 0
 box -3578 0 68406 49393
 << end >>

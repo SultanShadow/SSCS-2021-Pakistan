@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1635855079
+timestamp 1636132012
 << locali >>
 rect 32542 2293 39918 2352
 rect 32542 2115 39500 2293
@@ -89,11 +89,11 @@ rect 33190 407 33237 711
 rect 33461 407 43364 711
 rect 33190 272 43364 407
 use RX_layout  RX_layout_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 -22 0 1 -2
 box 20 0 136832 98786
 use Comparator_jafar  Comparator_jafar_0
-timestamp 1635855079
+timestamp 1636132012
 transform 1 0 18424 0 1 634
 box 3752 -276 14192 2976
 << end >>
