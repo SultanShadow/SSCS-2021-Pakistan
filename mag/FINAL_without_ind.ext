@@ -1,0 +1,99 @@
+timestamp 1637064016
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use cap_30_layout cap_30_layout_0 1 0 12438 0 1 62996
+use FINAL FINAL_0 1 0 2 0 1 2
+port "VINP" 2 17974 40444 17974 40444 m4
+port "VINN" 1 -72 38660 -72 38660 m2
+port "VINN" 1 326 40778 326 40778 m3
+node "VINP" 0 23194.5 17974 40444 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 401014 2654 241816 1972 241816 1972 22280376 96348 0 0 0 0
+node "VINN" 1 7455.04 326 40778 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 822252 4660 2225744 6560 6367920 14588 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "FINAL_0/RX_layout_0/recitifer_layout_0/nmos20_0/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/a_35_n8000#" "FINAL_0/RX_layout_0/recitifer_layout_0/nmos20_0/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/a_n35_n8088#" 75.7377
+cap "FINAL_0/m1_18072_2102#" "VINP" -259.2
+cap "VINP" "FINAL_0/m1_18072_2102#" 872.79
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "FINAL_0/RX_layout_0/recitifer_layout_0/nmos20_0/S" "VINP" 132.872
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "VINP" "FINAL_0/RX_layout_0/VSS" -22.438
+cap "FINAL_0/RX_layout_0/recitifer_layout_0/nmos20_0/S" "VINP" 93.44
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "VINP" "FINAL_0/RX_layout_0/VSS" -48.62
+cap "VINP" "FINAL_0/m1_18072_2102#" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "VINP" "FINAL_0/m1_18072_2102#" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "VINP" "FINAL_0/m1_18072_2102#" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "VINP" "FINAL_0/m1_18072_2102#" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "FINAL_0/RX_layout_0/recitifer_layout_0/VSS" "VINP" 155.192
+cap "FINAL_0/RX_layout_0/recitifer_layout_0/VSS" "VINP" -7.618
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "VINP" "FINAL_0/m1_18072_2102#" -38.34
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "VINP" "FINAL_0/m1_18072_2102#" -38.34
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "VINP" "FINAL_0/m1_18072_2102#" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "VINP" "FINAL_0/m1_18072_2102#" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "VINP" "FINAL_0/m1_18072_2102#" -38.34
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "FINAL_0/m1_18072_2102#" "VINP" -38.34
+cap "FINAL_0/m1_18072_2102#" "VINP" 1015.56
+cap "VINP" "FINAL_0/m1_18072_2102#" -38.34
+cap "VINP" "FINAL_0/m1_18072_2102#" 1015.56
+cap "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[16]/w_n231_n8219#" "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/G" -29
+cap "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/G" "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[16]/w_n231_n8219#" -196.05
+cap "FINAL_0/RX_layout_0/VIN1" "VINP" -38.34
+cap "VINP" "FINAL_0/RX_layout_0/VIN1" 1015.56
+cap "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[17]/w_n231_n8219#" "VINN" 5.68434e-14
+cap "VINN" "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/a_n93_n8000#" 2.11294
+cap "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/G" "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[17]/w_n231_n8219#" -55
+cap "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/G" "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/a_n93_n8000#" 2.11294
+cap "FINAL_0/RX_layout_0/VIN1" "VINP" -41.5
+cap "FINAL_0/RX_layout_0/VIN1" "VINP" 179.21
+subcap "VINN" -6420.51
+subcap "VINP" -22389
+subcap "VINP" -22890
+subcap "VINN" -6840.44
+subcap "VINP" -23213.5
+subcap "VINP" -23196.2
+cap "cap_30_layout_0/VOUT" "VINP" 426.608
+cap "cap_30_layout_0/VOUT" "VINP" 519.263
+cap "cap_30_layout_0/VOUT" "cap_30_layout_0/sky130_fd_pr__cap_mim_m3_1_LQCLLG_0/c1_6429_n12450#" -132.77
+cap "cap_30_layout_0/VOUT" "cap_30_layout_0/sky130_fd_pr__cap_mim_m3_1_LQCLLG_0/c1_6429_n12450#" -281.87
+merge "cap_30_layout_0/VSUBS" "FINAL_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "FINAL_0/VSUBS" "VSUBS"
+merge "cap_30_layout_0/sky130_fd_pr__cap_mim_m3_1_LQCLLG_0/c1_6429_n12450#" "cap_30_layout_0/VIN" -22341.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 286884 -2504 8648 -822 2388 -822 -20239192 -88974 0 0 0 0
+merge "cap_30_layout_0/VIN" "FINAL_0/RX_layout_0/recitifer_layout_0/nmos20_0/m1_114_n8222#"
+merge "FINAL_0/RX_layout_0/recitifer_layout_0/nmos20_0/m1_114_n8222#" "FINAL_0/RX_layout_0/recitifer_layout_0/nmos20_0/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/a_n35_n8088#"
+merge "FINAL_0/RX_layout_0/recitifer_layout_0/nmos20_0/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/a_n35_n8088#" "VINP"
+merge "cap_30_layout_0/VOUT" "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/G" -2586.85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -140524 -1816 0 0 1191858 -14387 -59346 -4435 0 0 0 0
+merge "FINAL_0/RX_layout_0/recitifer_layout_0/pmos20_0/G" "VINN"

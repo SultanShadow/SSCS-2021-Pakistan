@@ -1,0 +1,51 @@
+timestamp 1637064016
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use Comparator_jafar Comparator_jafar_0 1 0 18424 0 1 634
+use RX_layout RX_layout_0 1 0 -22 0 1 -2
+node "m2_27588_354#" 3 10431.4 27588 354 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2618880 12784 270584 2100 8990180 26176 0 0 0 0
+node "m1_33274_1378#" 3 4249.13 33274 1378 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1095576 8332 1267840 8564 0 0 0 0 0 0 0 0
+node "m1_18072_2102#" 2 21910.3 18072 2102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2030560 9268 212208 2440 12546652 73216 0 0 0 0 0 0
+node "li_32542_2056#" 305 5778.31 32542 2056 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2183296 15344 160732 1696 160732 1696 71040 1124 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_32542_2056#" "m1_33274_1378#" 513.622
+subcap "m2_27588_354#" -9781.09
+cap "m2_27588_354#" "Comparator_jafar_0/VOUT" 97.4576
+cap "m2_27588_354#" "Comparator_jafar_0/VOUT" 35.8757
+subcap "m1_33274_1378#" -4179.44
+cap "RX_layout_0/cap225_layout_0/m3_n90032_n88800#" "m2_27588_354#" 1443.12
+subcap "m1_18072_2102#" -21431.8
+cap "m1_18072_2102#" "RX_layout_0/recitifer_layout_0/nmos20_0/m1_114_n8222#" 60.0817
+subcap "m1_18072_2102#" -20538.3
+subcap "li_32542_2056#" -3319.47
+subcap "m1_33274_1378#" -3800.42
+subcap "li_32542_2056#" -4107.09
+cap "Comparator_jafar_0/sky130_fd_pr__nfet_01v8_lvt_8K7EBA_3/a_n93_n2000#" "Comparator_jafar_0/VSS" 0.0941615
+cap "Comparator_jafar_0/VSS" "Comparator_jafar_0/w_14120_2390#" 0.176471
+cap "RX_layout_0/cap225_layout_0/m3_n90032_n88800#" "RX_layout_0/cap225_layout_0/sky130_fd_pr__cap_mim_m3_1_ZP6U3S_0/c1_n47283_n47100#" 1222.57
+cap "RX_layout_0/VSS" "m1_18072_2102#" 132.029
+cap "m1_18072_2102#" "RX_layout_0/VSS" 180.53
+cap "m1_33274_1378#" "RX_layout_0/VSS" 556.718
+cap "m1_18072_2102#" "RX_layout_0/pmos40_0/pmos20_0[1]/D" -61.6
+cap "m1_18072_2102#" "RX_layout_0/VSS" 67.125
+cap "m1_18072_2102#" "RX_layout_0/VSS" 92.38
+cap "RX_layout_0/pmos40_0/pmos20_0[1]/D" "m1_18072_2102#" 42.174
+cap "RX_layout_0/pmos40_0/pmos20_0[0]/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[8]/a_n35_n8097#" "RX_layout_0/VSS" 404.99
+cap "RX_layout_0/pmos40_0/pmos20_0[0]/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[6]/w_n231_n8219#" "RX_layout_0/pmos40_0/pmos20_0[0]/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[8]/a_n35_n8097#" -76.6074
+cap "RX_layout_0/recitifer_layout_0/VSS" "m1_18072_2102#" 207.127
+cap "RX_layout_0/recitifer_layout_0/VSS" "m1_18072_2102#" 142.331
+cap "m1_18072_2102#" "RX_layout_0/pmos40_1/pmos20_0[1]/D" -966.56
+cap "RX_layout_0/pmos40_1/pmos20_0[1]/D" "m1_18072_2102#" 333.39
+merge "RX_layout_0/VIN1" "Comparator_jafar_0/VIN-" -18186.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56560 -984 519800 -724 -11963840 -70000 0 0 0 0 0 0
+merge "Comparator_jafar_0/VIN-" "m1_18072_2102#"
+merge "Comparator_jafar_0/w_4746_1490#" "RX_layout_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "RX_layout_0/VSUBS" "VSUBS"
+merge "RX_layout_0/cap225_layout_0/m3_n90032_n88800#" "Comparator_jafar_0/VSS" 246.174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70300 -668 0 0 0 0 -17664 -1124 0 0 0 0 0 0
+merge "Comparator_jafar_0/VSS" "li_32542_2056#"
+merge "RX_layout_0/pmos40_0/pmos20_0[0]/m1_142_16208#" "Comparator_jafar_0/VOUT" -1981.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -512904 -4260 -604160 -2528 0 0 0 0 0 0 0 0
+merge "Comparator_jafar_0/VOUT" "m1_33274_1378#"
+merge "RX_layout_0/cap225_layout_0/sky130_fd_pr__cap_mim_m3_1_ZP6U3S_0/c1_n47283_n47100#" "Comparator_jafar_0/VINp" -7530.03 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2040480 -10596 -264624 -1484 -6350354 -17776 0 0 0 0
+merge "Comparator_jafar_0/VINp" "m2_27588_354#"

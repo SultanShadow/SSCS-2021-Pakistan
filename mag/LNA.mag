@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1636132012
+timestamp 1637060811
 << nwell >>
 rect 4753 3005 4825 3075
 rect 4929 3005 5001 3075
@@ -324,34 +324,34 @@ rect -1254 -2239 -98 -2155
 rect -1254 -2475 -448 -2239
 rect -212 -2475 -98 -2239
 rect -1254 -2615 -98 -2475
-use sky130_fd_pr__nfet_01v8_lvt_C43HKJ  sky130_fd_pr__nfet_01v8_lvt_C43HKJ_0
-timestamp 1636132012
-transform 0 1 3692 -1 0 -1146
-box -201 -940 201 940
-use sky130_fd_pr__nfet_01v8_lvt_H2P3K4  sky130_fd_pr__nfet_01v8_lvt_H2P3K4_0
-timestamp 1636132012
-transform 0 1 1680 -1 0 -1146
-box -201 -1000 201 1000
-use sky130_fd_pr__res_high_po_0p35_A4PB2C  sky130_fd_pr__res_high_po_0p35_A4PB2C_0
-timestamp 1636132012
-transform 0 1 1431 -1 0 -1779
-box -191 -638 191 638
-use sky130_fd_pr__res_high_po_0p35_PGG99R  sky130_fd_pr__res_high_po_0p35_PGG99R_0
-timestamp 1636132012
-transform 0 1 2134 -1 0 -2310
-box -191 -1588 191 1588
-use ForwardAmp  ForwardAmp_0
-timestamp 1636132012
-transform 1 0 0 0 1 0
-box 0 66 5705 5234
-use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_0
-timestamp 1636132012
-transform 0 -1 -3746 1 0 621
-box -3351 -3101 3373 3101
 use sky130_fd_pr__diode_pd2nw_05v5_WW7YB9  sky130_fd_pr__diode_pd2nw_05v5_WW7YB9_0
-timestamp 1636132012
+timestamp 1637060811
 transform 1 0 151 0 1 -1251
 box -466 -466 466 466
+use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_0
+timestamp 1637060811
+transform 0 -1 -3746 1 0 621
+box -3351 -3101 3373 3101
+use ForwardAmp  ForwardAmp_0
+timestamp 1637060811
+transform 1 0 0 0 1 0
+box 0 66 5705 5234
+use sky130_fd_pr__res_high_po_0p35_PGG99R  sky130_fd_pr__res_high_po_0p35_PGG99R_0
+timestamp 1637060811
+transform 0 1 2134 -1 0 -2310
+box -191 -1588 191 1588
+use sky130_fd_pr__res_high_po_0p35_A4PB2C  sky130_fd_pr__res_high_po_0p35_A4PB2C_0
+timestamp 1637060811
+transform 0 1 1431 -1 0 -1779
+box -191 -638 191 638
+use sky130_fd_pr__nfet_01v8_lvt_H2P3K4  sky130_fd_pr__nfet_01v8_lvt_H2P3K4_0
+timestamp 1637060811
+transform 0 1 1680 -1 0 -1146
+box -201 -1000 201 1000
+use sky130_fd_pr__nfet_01v8_lvt_C43HKJ  sky130_fd_pr__nfet_01v8_lvt_C43HKJ_0
+timestamp 1637060811
+transform 0 1 3692 -1 0 -1146
+box -201 -940 201 940
 << labels >>
 rlabel metal1 s 4671 -1142 4671 -1142 4 VBIAS1
 port 1 nsew

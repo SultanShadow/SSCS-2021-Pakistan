@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1636132012
+timestamp 1637060811
 << locali >>
 rect 6239 21889 6632 22186
 rect 9068 21889 9341 21898
@@ -264,30 +264,30 @@ rect 13282 1343 15152 1473
 rect 13282 -173 13345 1343
 rect 13901 -173 15152 1343
 rect 13282 -292 15152 -173
-use PA_BUFF  PA_BUFF_0
-timestamp 1636132012
-transform 1 0 3802 0 -1 21092
-box -641 -1212 6958 8136
-use Switch  Switch_0
-timestamp 1636132012
-transform 1 0 10953 0 1 9891
-box -6207 -129 7419 3455
-use LNA_2ndstage  LNA_2ndstage_0
-timestamp 1636132012
-transform 1 0 20364 0 1 902
-box -6280 -889 7501 7084
-use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_0
-timestamp 1636132012
-transform -1 0 22629 0 1 11359
-box -3351 -3101 3373 3101
-use LNA_Buff  LNA_Buff_0
-timestamp 1636132012
-transform -1 0 18309 0 1 18676
-box -466 -5034 6978 1638
 use LNA  LNA_0
-timestamp 1636132012
+timestamp 1637060811
 transform 1 0 6847 0 1 2730
 box -6847 -2730 6094 5235
+use LNA_Buff  LNA_Buff_0
+timestamp 1637060811
+transform -1 0 18309 0 1 18676
+box -466 -5034 6978 1638
+use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_0
+timestamp 1637060811
+transform -1 0 22629 0 1 11359
+box -3351 -3101 3373 3101
+use LNA_2ndstage  LNA_2ndstage_0
+timestamp 1637060811
+transform 1 0 20364 0 1 902
+box -6280 -889 7501 7084
+use Switch  Switch_0
+timestamp 1637060811
+transform 1 0 10953 0 1 9891
+box -6207 -129 7419 3455
+use PA_BUFF  PA_BUFF_0
+timestamp 1637060811
+transform 1 0 3802 0 -1 21092
+box -641 -1212 6958 8136
 << labels >>
 rlabel metal1 s 4747 11473 4747 11473 4 VSWN
 port 1 nsew

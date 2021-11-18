@@ -1,0 +1,49 @@
+timestamp 1637060811
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use cascode_PMOS cascode_PMOS_0 1 0 174 0 1 0
+use sky130_fd_pr__res_high_po_0p69_D8BZCP sky130_fd_pr__res_high_po_0p69_D8BZCP_0 1 0 2149 0 1 4218
+port "G1" 2 2115 418 2115 418 m1
+port "G2" 3 0 638 0 638 m1
+port "S1" 4 2238 3010 2238 3010 m1
+port "VDD" 1 2239 5234 2239 5234 m1
+node "G1" 1 67.6481 2115 418 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3151 320 0 0 0 0 0 0 0 0 0 0
+node "G2" 1 56.8702 0 638 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1708 272 0 0 0 0 0 0 0 0 0 0
+node "S1" 1 35.5325 2238 3010 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1050 170 0 0 0 0 0 0 0 0 0 0
+node "m1_1382_3045#" 1 1753.91 1382 3045 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1132848 7742 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 1704.21 2239 5234 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1212720 4468 0 0 0 0 0 0 0 0 0 0
+node "li_1371_3292#" 58 1510.28 1371 3292 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 511924 3770 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_1382_3045#" "li_1371_3292#" 1575.11
+cap "m1_1382_3045#" "VDD" 378.581
+subcap "m1_1382_3045#" -2197.72
+subcap "m1_1382_3045#" -1211.07
+subcap "li_1371_3292#" -338.924
+cap "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/w_n804_n657#" "cascode_PMOS_0/cascode_0/D2" -90.3901
+cap "S1" "cascode_PMOS_0/D2" 53.5473
+cap "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_n648_69#" "cascode_PMOS_0/D2" -66.0072
+cap "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_510_n501#" "cascode_PMOS_0/w_3117_3362#" -816.086
+cap "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/w_n804_n657#" "VDD" 595.023
+cap "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_n648_n501#" "VDD" -66.0072
+cap "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/w_n804_n657#" "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_510_69#" -181.265
+merge "cascode_PMOS_0/G1" "G1" -67.6481 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3151 -320 0 0 0 0 0 0 0 0 0 0
+merge "cascode_PMOS_0/S1" "S1" -2282.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -418564 -6762 -1050 -170 0 0 0 0 0 0 0 0 0 0
+merge "S1" "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/w_n804_n657#"
+merge "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/w_n804_n657#" "cascode_PMOS_0/w_3117_3362#"
+merge "cascode_PMOS_0/w_3117_3362#" "VSUBS"
+merge "VSUBS" "cascode_PMOS_0/cascode_0/w_n425_n653#"
+merge "cascode_PMOS_0/cascode_0/w_n425_n653#" "li_1371_3292#"
+merge "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_510_69#" "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_124_69#" 692.764 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12486 -4216 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_124_69#" "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_n262_69#"
+merge "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_n262_69#" "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_n648_69#"
+merge "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_n648_69#" "VDD"
+merge "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_510_n501#" "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_124_n501#" 1101.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32589 -6274 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_124_n501#" "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_n262_n501#"
+merge "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_n262_n501#" "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_n648_n501#"
+merge "sky130_fd_pr__res_high_po_0p69_D8BZCP_0/a_n648_n501#" "cascode_PMOS_0/D2"
+merge "cascode_PMOS_0/D2" "cascode_PMOS_0/cascode_0/D2"
+merge "cascode_PMOS_0/cascode_0/D2" "m1_1382_3045#"
+merge "cascode_PMOS_0/cascode_0/G1" "G2" -56.8702 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1708 -272 0 0 0 0 0 0 0 0 0 0

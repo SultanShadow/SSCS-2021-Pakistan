@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1636132012
-<< error_s >>
-rect 3964 12507 4500 12828
+timestamp 1637060811
 << locali >>
 rect 5324 29133 10352 29402
 rect 5324 28163 6301 29133
@@ -85,7 +83,8 @@ rect 3030 12283 3112 12389
 rect 3578 12283 3666 12389
 rect 18333 12318 18963 12449
 rect 3030 11511 3666 12283
-rect 4001 12048 4459 12293
+rect 3858 12136 4462 12296
+rect 4001 12048 4459 12136
 rect 4001 11798 4108 12048
 rect 4358 11798 4459 12048
 rect 4001 11734 4459 11798
@@ -559,44 +558,48 @@ rect 21929 17032 28108 19174
 rect 21929 16378 28099 17032
 rect 20930 15826 28099 16378
 rect -7296 14641 -327 15273
+use sky130_fd_sc_hd__tap_1  sky130_fd_sc_hd__tap_1_0
+timestamp 1637060811
+transform 1 0 3868 0 1 12254
+box -38 -48 130 592
 use sky130_fd_sc_hd__inv_4  sky130_fd_sc_hd__inv_4_0
-timestamp 1636132012
+timestamp 1637060811
 transform 1 0 4002 0 1 12246
 box -38 -48 498 592
 use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_1
-timestamp 1636132012
+timestamp 1637060811
 transform 1 0 -1294 0 1 17068
 box -3351 -3101 3373 3101
 use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_0
-timestamp 1636132012
+timestamp 1637060811
 transform 1 0 26173 0 1 18811
 box -3351 -3101 3373 3101
 use sky130_fd_pr__cap_mim_m3_2_S6VVQT  sky130_fd_pr__cap_mim_m3_2_S6VVQT_0
-timestamp 1636132012
+timestamp 1637060811
 transform 1 0 26173 0 1 24752
 box -3351 -2601 3373 2601
 use sky130_fd_pr__cap_mim_m3_2_WXTTNJ  sky130_fd_pr__cap_mim_m3_2_WXTTNJ_0
-timestamp 1636132012
+timestamp 1637060811
 transform 0 1 20351 -1 0 24648
 box -2351 -2101 2373 2101
 use sky130_fd_pr__cap_mim_m3_2_D7CHNQ  sky130_fd_pr__cap_mim_m3_2_D7CHNQ_3
-timestamp 1636132012
+timestamp 1637060811
 transform 0 1 5470 -1 0 26628
 box -1851 -1601 1873 1601
 use sky130_fd_pr__cap_mim_m3_2_D7CHNQ  sky130_fd_pr__cap_mim_m3_2_D7CHNQ_2
-timestamp 1636132012
+timestamp 1637060811
 transform 0 1 9319 -1 0 26607
 box -1851 -1601 1873 1601
 use sky130_fd_pr__cap_mim_m3_2_D7CHNQ  sky130_fd_pr__cap_mim_m3_2_D7CHNQ_1
-timestamp 1636132012
+timestamp 1637060811
 transform 0 1 -3143 -1 0 26622
 box -1851 -1601 1873 1601
 use sky130_fd_pr__cap_mim_m3_2_D7CHNQ  sky130_fd_pr__cap_mim_m3_2_D7CHNQ_0
-timestamp 1636132012
+timestamp 1637060811
 transform 0 1 1008 -1 0 26603
 box -1851 -1601 1873 1601
 use Top  Top_0
-timestamp 1636132012
+timestamp 1637060811
 transform 1 0 0 0 1 1008
 box 0 -1008 27865 22304
 << labels >>

@@ -1,0 +1,140 @@
+timestamp 1637064016
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use nmos20 nmos20_1 0 -1 8511 -1 0 -10210
+use nmos20 nmos20_0 0 -1 8575 -1 0 -20124
+use pmos20 pmos20_1 0 1 334 -1 0 -342
+use pmos20 pmos20_0 0 1 266 -1 0 9220
+port "VINP" 4 -146 -846 -146 -846 m1
+port "VINN" 3 -426 -19954 -426 -19954 m2
+port "VIN1" 1 16536 9384 16536 9384 m1
+port "VSS" 2 17042 -10074 17042 -10074 m2
+node "m2_16370_n446#" 1 463.938 16370 -446 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 113408 2028 0 0 0 0 0 0 0 0
+node "m1_46_n20498#" 2 1090.57 46 -20498 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102816 1320 359728 4280 0 0 0 0 0 0 0 0
+node "m1_36_n10642#" 1 1225.92 36 -10642 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 107712 1316 470436 4432 0 0 0 0 0 0 0 0
+node "m1_532_n10216#" 0 46.4416 532 -10216 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2064 220 0 0 0 0 0 0 0 0 0 0
+node "m1_74_n10056#" 1 649.274 74 -10056 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 188976 2568 0 0 0 0 0 0 0 0 0 0
+node "VINP" 0 1087.38 -146 -846 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 618240 3344 0 0 0 0 0 0 0 0 0 0
+node "m1_290_n504#" 1 443.611 290 -504 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 113524 1804 0 0 0 0 0 0 0 0 0 0
+node "VINN" 10 12442.7 -426 -19954 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 509644 5716 6389896 42508 0 0 0 0 0 0 0 0
+node "VIN1" 0 160.112 16536 9384 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28080 692 0 0 0 0 0 0 0 0 0 0
+node "li_16268_n20106#" 19 989.225 16268 -20106 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 79800 1156 79800 1156 197596 2224 0 0 0 0 0 0 0 0
+node "VSS" 18 1006.47 17042 -10074 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21328 592 21328 592 375460 3052 0 0 0 0 0 0 0 0
+node "li_496_n396#" 18 135.145 496 -396 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8892 384 8892 384 4836 280 0 0 0 0 0 0 0 0
+node "li_430_9202#" 22 110.035 430 9202 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9768 412 6912 336 3248 228 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_532_n10216#" "m1_74_n10056#" 14.5946
+cap "VINP" "VINN" 1137.32
+cap "m1_290_n504#" "li_496_n396#" 84.0883
+cap "m1_290_n504#" "VINN" 400.946
+cap "VINN" "li_496_n396#" 65.2143
+cap "m1_46_n20498#" "VINN" 900.618
+cap "m1_74_n10056#" "m1_36_n10642#" 616.357
+cap "VINP" "m1_290_n504#" 12.375
+cap "VINN" "m1_36_n10642#" 170.758
+subcap "m1_46_n20498#" -104.729
+subcap "VINN" -12339.9
+cap "nmos20_0/G" "VINN" 52.3068
+cap "nmos20_0/B" "nmos20_0/G" 1.13687e-13
+cap "nmos20_0/G" "nmos20_1/G" 75.6774
+cap "nmos20_0/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/a_35_n8000#" "nmos20_1/G" 12.4254
+subcap "li_16268_n20106#" -839.209
+subcap "li_16268_n20106#" -186.579
+cap "nmos20_0/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/a_n93_n8000#" "nmos20_1/S" 111
+cap "nmos20_0/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/a_n35_n8088#" "nmos20_1/S" -1.13687e-13
+cap "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/w_n221_n8200#" "nmos20_1/G" 7.4987
+cap "nmos20_1/G" "nmos20_1/D" 0.108
+cap "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/w_n221_n8200#" "nmos20_1/D" -16.7649
+cap "nmos20_1/D" "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/a_35_n8000#" -95.722
+cap "nmos20_1/D" "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/a_35_n8000#" -55.172
+cap "nmos20_1/D" "nmos20_1/G" 2.96
+cap "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/w_n221_n8200#" "nmos20_1/D" 7.9779
+cap "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/a_n35_n8088#" "nmos20_1/S" 100.645
+cap "nmos20_1/S" "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[0]/w_n221_n8200#" 13.6321
+subcap "m1_74_n10056#" -150.662
+cap "nmos20_1/G" "nmos20_1/D" 449.908
+cap "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/a_35_n8000#" "nmos20_1/D" 1.65254
+cap "nmos20_1/G" "nmos20_1/B" 159.243
+cap "nmos20_1/D" "nmos20_1/G" 105.544
+cap "nmos20_1/D" "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/a_35_n8000#" 6.22881
+cap "VSS" "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/a_n93_n8000#" 81.1207
+cap "VSS" "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/a_n35_n8088#" -1.13687e-13
+subcap "VSS" -1027.42
+subcap "m1_74_n10056#" -30.568
+cap "pmos20_1/S" "nmos20_1/D" 14.9243
+cap "pmos20_1/S" "pmos20_1/B" -29.1001
+cap "pmos20_1/S" "nmos20_1/D" 15.6911
+cap "pmos20_1/S" "pmos20_1/B" 33.1484
+subcap "VSS" -1343.26
+subcap "VSS" -998.381
+cap "pmos20_1/S" "VINP" 125.171
+cap "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/a_n93_n8000#" "VINP" 15.2206
+cap "pmos20_0/B" "pmos20_1/S" 14.5813
+cap "pmos20_0/B" "VINP" 79.59
+subcap "m1_290_n504#" -224.547
+cap "pmos20_1/G" "pmos20_1/S" 1.6
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/a_n93_n8000#" "pmos20_1/G" 0.460751
+cap "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[18]/a_n93_n8000#" "pmos20_1/S" 1.81899e-12
+cap "pmos20_0/B" "pmos20_1/S" 118.059
+cap "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/a_n93_n8000#" "pmos20_1/S" 117.685
+cap "pmos20_1/G" "pmos20_0/B" -86.1119
+cap "pmos20_1/G" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/a_n93_n8000#" 16.9853
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" 117.259
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" 117.259
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" 117.259
+cap "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" 117.259
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" 117.259
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" 117.259
+cap "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" 117.259
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" 117.259
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" 117.259
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[18]/w_n231_n8219#" 117.259
+cap "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[18]/w_n231_n8219#" "pmos20_1/D" 66.1304
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[18]/w_n231_n8219#" 60.7621
+cap "pmos20_1/D" "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/a_n35_n8097#" 2.22941
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" "pmos20_1/D" 45.4284
+cap "pmos20_1/S" "pmos20_0/S" 128.309
+cap "pmos20_0/B" "pmos20_0/S" 78.2908
+cap "pmos20_0/B" "li_496_n396#" 3.53571
+cap "pmos20_1/S" "pmos20_0/S" 0.598288
+cap "pmos20_0/B" "pmos20_0/S" -82.0694
+cap "pmos20_0/S" "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/a_n93_n8000#" 1.57876
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/a_n35_n8097#" "pmos20_1/D" 2.22941
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/a_n35_n8097#" "pmos20_0/D" 218.15
+cap "pmos20_0/D" "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/a_35_n8000#" 104.18
+cap "pmos20_0/D" "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[0]/w_n231_n8219#" 93.6769
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/a_n93_n8000#" "pmos20_0/S" 24.2582
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/a_n93_n8000#" "pmos20_0/S" 5.85292
+cap "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/a_n35_n8097#" "VIN1" 18.3559
+merge "pmos20_0/G" "pmos20_1/S" -4817.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23760 -224 -131620 -2498 -156433 -20397 0 0 0 0 0 0 0 0
+merge "pmos20_1/S" "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#"
+merge "pmos20_1/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" "li_496_n396#"
+merge "li_496_n396#" "nmos20_0/D"
+merge "nmos20_0/D" "m1_36_n10642#"
+merge "m1_36_n10642#" "nmos20_1/G"
+merge "nmos20_1/G" "VINN"
+merge "pmos20_0/VSUBS" "pmos20_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pmos20_1/VSUBS" "nmos20_1/VSUBS"
+merge "nmos20_1/VSUBS" "nmos20_0/VSUBS"
+merge "nmos20_0/VSUBS" "VSUBS"
+merge "nmos20_0/S" "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/w_n221_n8200#" -834.196 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -91480 -808 42336 0 43572 -2192 0 0 0 0 0 0 0 0
+merge "nmos20_1/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/w_n221_n8200#" "VSS"
+merge "VSS" "nmos20_0/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/w_n221_n8200#"
+merge "nmos20_0/sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0[19]/w_n221_n8200#" "nmos20_1/S"
+merge "nmos20_1/S" "li_16268_n20106#"
+merge "pmos20_0/S" "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" -585.271 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2516 -216 -401660 -3818 -24960 -832 0 0 0 0 0 0 0 0
+merge "pmos20_0/sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0[19]/w_n231_n8219#" "li_430_9202#"
+merge "li_430_9202#" "pmos20_1/G"
+merge "pmos20_1/G" "m1_290_n504#"
+merge "m1_290_n504#" "VINP"
+merge "VINP" "nmos20_1/D"
+merge "nmos20_1/D" "m1_532_n10216#"
+merge "m1_532_n10216#" "m1_74_n10056#"
+merge "m1_74_n10056#" "nmos20_0/G"
+merge "nmos20_0/G" "m1_46_n20498#"
+merge "pmos20_0/D" "VIN1" -544.677 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8208 -372 -86344 -716 0 0 0 0 0 0 0 0
+merge "VIN1" "pmos20_1/D"
+merge "pmos20_1/D" "m2_16370_n446#"

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1636132012
+timestamp 1637060811
 << poly >>
 rect 1010 110 1042 136
 rect 2412 118 2442 134
@@ -362,26 +362,26 @@ rect 6900 -2845 6978 -2461
 rect 6608 -3128 6978 -2845
 << metal5 >>
 rect 3922 582 4548 1638
-use sky130_fd_pr__nfet_01v8_lvt_KVAFL2  sky130_fd_pr__nfet_01v8_lvt_KVAFL2_0
-timestamp 1636132012
-transform 1 0 594 0 1 557
-box -637 -600 637 600
-use sky130_fd_pr__nfet_01v8_lvt_BKUEL6  sky130_fd_pr__nfet_01v8_lvt_BKUEL6_0
-timestamp 1636132012
-transform -1 0 1995 0 1 556
-box -733 -600 733 600
-use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_0
-timestamp 1636132012
-transform 1 0 3295 0 1 -1933
-box -3351 -3101 3373 3101
-use sky130_fd_pr__res_high_po_0p35_MGFMH8  sky130_fd_pr__res_high_po_0p35_MGFMH8_0
-timestamp 1636132012
-transform 1 0 -275 0 1 -932
-box -191 -2088 191 2088
 use sky130_fd_pr__diode_pd2nw_05v5_WW7YB9  sky130_fd_pr__diode_pd2nw_05v5_WW7YB9_0
-timestamp 1636132012
+timestamp 1637060811
 transform 1 0 614 0 1 -536
 box -466 -466 466 466
+use sky130_fd_pr__res_high_po_0p35_MGFMH8  sky130_fd_pr__res_high_po_0p35_MGFMH8_0
+timestamp 1637060811
+transform 1 0 -275 0 1 -932
+box -191 -2088 191 2088
+use sky130_fd_pr__cap_mim_m3_2_LJ5JLG  sky130_fd_pr__cap_mim_m3_2_LJ5JLG_0
+timestamp 1637060811
+transform 1 0 3295 0 1 -1933
+box -3351 -3101 3373 3101
+use sky130_fd_pr__nfet_01v8_lvt_BKUEL6  sky130_fd_pr__nfet_01v8_lvt_BKUEL6_0
+timestamp 1637060811
+transform -1 0 1995 0 1 556
+box -733 -600 733 600
+use sky130_fd_pr__nfet_01v8_lvt_KVAFL2  sky130_fd_pr__nfet_01v8_lvt_KVAFL2_0
+timestamp 1637060811
+transform 1 0 594 0 1 557
+box -637 -600 637 600
 << labels >>
 rlabel metal1 s 2136 1230 2136 1230 4 BIAS1
 port 1 nsew
